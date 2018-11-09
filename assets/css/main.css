@@ -72,6 +72,30 @@ input, select, textarea {
 	appearance: none;
 }
 
+.siguiente {
+	font-size: 20pt;
+	display: inline;
+	margin: 0 400px;
+}
+
+.correo {
+	display: inline;
+	font-weight: bold;
+}
+
+.cursiva {
+	font-family: 'Dancing Script', cursive;
+	color: #f2849e;
+}
+
+.firma {
+	display: inline;
+	margin: 0 325px;
+	text-align: center;
+	font-size: 5em;
+}
+
+
 /* Basic */
 
 	@-ms-viewport {
@@ -168,10 +192,10 @@ input, select, textarea {
 
 	h1 {
 		font-size: 2.75em;
-		font-weight: 700;
+		font-weight: normal;
 		line-height: 1.3;
 		margin: 0 0 1em 0;
-		letter-spacing: -0.035em;
+		/* letter-spacing: -0.035em; */
 	}
 
 		h1 a {
