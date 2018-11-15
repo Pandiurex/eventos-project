@@ -2862,6 +2862,17 @@ input, select, textarea {
 					height: 15em;
 				}
 
+@media screen and (max-width: 480px){
+	#header .logo {
+		 margin: 0 0 2.5em 2em;
+	}
+.siguiente{
+	font-size: 20pt;
+display: inline;
+margin: 0 200px;
+}
+}
+
 		#header nav {
 			position: fixed;
 			right: 2em;
